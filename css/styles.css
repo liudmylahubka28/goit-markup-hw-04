@@ -252,6 +252,7 @@ color: #2e2f42;
 }
 .icons-list-item {
     width: 40px;
+    margin-top: 20px;
     height: 40px
 }
 .icons-item-link {
@@ -262,6 +263,7 @@ color: #2e2f42;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icons-item-link:hover, .icons-item-link:focus {
     background-color: #404bbf;
