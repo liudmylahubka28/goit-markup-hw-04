@@ -150,11 +150,11 @@ img {
     border: none;
     text-align: center;
     margin: auto;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .hero-button:hover, .hero-button:focus {
     background-color: #404BBF;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .features-section {
@@ -261,6 +261,10 @@ color: #2e2f42;
 .social-links-item {
     width: 40px;
     height: 40px;
+    margin: 0;
+}
+.icon-link {
+    fill: #F4F4FD;
 }
 
 .link-team {
@@ -271,6 +275,7 @@ color: #2e2f42;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-section {
     padding-top: 120px;
