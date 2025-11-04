@@ -350,6 +350,11 @@ color: #2e2f42;
 
 }
 
+.portfolio-second-description {
+    position: relative;
+    overflow: hidden;
+}
+
 .page-footer {
      padding: 100px 0;
 }
